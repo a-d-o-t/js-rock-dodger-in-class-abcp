@@ -89,6 +89,9 @@ function moveDodger(e) {
   }
 }
 
+//also above could be if (e.which ===37) {moveDodgerLeft();
+//else if blah blah blah
+
 function moveDodgerLeft() {
   window.requestAnimationFrame(function() {
     const left = positionToInteger(DODGER.style.left)
